@@ -63,7 +63,7 @@ describe Mongoid::Slug::Criteria do
         end
       end
 
-      context "when ids are BSON::ObjectIds and the supplied argument looks like a BSON::ObjectId" do
+      context "when ids are BSON::ObjectIds and the supplied argument looks like an BSON::ObjectId" do
         it "it should find based on ids not slugs" do # i.e. it should type cast the argument
           Friend.find(friend.id.to_s).should == friend
         end

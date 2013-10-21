@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'mongoid', github: 'mongoid/mongoid', branch: "master"
-gem 'mongoid-paranoia', github: 'simi/mongoid-paranoia', branch: "3.0.0-stable"
+gem 'mongoid-paranoia', github: 'simi/mongoid-paranoia', branch: "master"
 
 git "git://github.com/rails/rails.git" do
   gem "activemodel"
